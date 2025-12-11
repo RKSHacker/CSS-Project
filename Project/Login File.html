@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body{
+            background-color: rgb(249, 232, 241);
+        }
+        .box{
+            width:350px;
+            height: 500px;
+            background-color: white;
+            box-shadow: 0px 2px 15px;
+            border-radius: 5px;
+            margin: auto;
+        }
+        .R{
+            width: 44%;
+            height: 25px;
+            margin-left: 21px;
+            margin-top: 10px;
+            background-color:whitesmoke;
+            border: 1px solid gray;
+            border-bottom-left-radius: 5px;
+            border-top-left-radius: 5px;
+            font-weight: bolder;
+        }
+        .R:hover{
+            background-color: palevioletred;
+            color: white;
+            cursor: pointer;
+        }
+        .K{
+            width: 44%;
+            height: 25px;
+            margin-left: -5px;
+            margin-top: 10px;
+            background-color:green;
+            border: 1px solid gray;
+            border-bottom-right-radius: 5px;
+            border-top-right-radius: 5px;
+            color: white;
+            font-weight: bolder;
+        }
+        .K:hover{
+            background-color: blue;
+            color: white;
+            cursor: pointer;
+        }
+        .S{
+            width: 41%;
+            margin-left: 21px;
+        }
+        .S::placeholder{
+            color: rgb(249, 185, 185);
+        }
+        .H{
+            width: 41%;
+        }
+        .H::placeholder{
+            color: rgb(249, 185, 185);
+        }
+        .A{
+            width: 85.5%;
+            height: 15px;
+            margin-left: 21px;
+            margin-top: -5px;
+        }
+        .A::placeholder{
+            color: rgb(249, 185, 185);
+        }
+        .C{
+            width: 87%;
+            height: 20px;
+            margin-left: 21px;
+        }
+        .I{
+            width: 148px;
+            margin-left: 21px;
+            height: auto;
+            border: 1px solid black;
+            border-bottom-left-radius: 3px;
+            border-top-left-radius: 3px;
+        }
+        .f{
+            width: 148px;
+             border: 1px solid black;
+             border-top-right-radius: 3px;
+             border-bottom-right-radius: 3px;
+        }
+        .G{
+            width: 44%;
+            height: 25px;
+            margin-left: 21px;
+            background-color:brown;
+            border-bottom-left-radius: 5px;
+            border-top-left-radius: 5px;
+            color: white;
+            font-weight: bolder
+        }
+        .G:hover{
+            background-color:green;
+            opacity: 0.5;
+            cursor: pointer;
+        }
+        .F{
+            width: 44%;
+            height: 25px;
+            margin-left: -5px;
+            border-bottom-right-radius: 5px;
+            border-top-right-radius: 5px;
+            background-color: blue;
+            font-weight: bolder;
+            color: white;
+        }
+        .F:hover{
+            background-color:green;
+            opacity: 0.5;
+            cursor: pointer;
+            
+        }
+        h3{
+            text-align: center;
+        }
+        .r{
+            margin-left: 21px;
+        }
+        .p1{
+            width: 88%;
+            margin-left: 21px;
+            background-color: green;
+            color: white;
+            font-weight: bolder;
+        }
+        .p2{
+            margin-left: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <form action="">
+            <input type="button" value="LOG IN" class="R">
+            <input type="button" value="REGISTER" class="K"> <br><br>
+            <a href="https://www.google.com" target="_blank"> <input type="button" value="Google" class="G"></a>
+            <a href="thhps://www.facebook.com" target="_blank"><input type="button" value="Facebook" class="F"></a>
+            <br>
+            <h3>-or-</h3>
+            
+            <input type="text" name="fname" id="" placeholder="First Name *" class="S">
+            <input type="text" name="lname" id="" placeholder="Last Name *" class="H"><br><br>
+            <input type="email" name="email" id="" placeholder="Enter E-Mail *" class="A"><br><br>
+            <input type="password" name="pass" id="" placeholder="Create new Password *" class="A"><br><br>
+            <input type="password" name="pass2" id="" placeholder="Conform password *" class="A"><br><br>
+            <input type="date" name="dob" id="" class="A"><br><br>
+        <select name="Country" id="country" class="C">
+            <option value="">Select Country</option>
+            <option value="">India</option>
+            <option value="">United State</option>
+            <option value="">Asia</option>
+            <option value="">Pakistan</option>
+            <option value="">South Africa</option>
+            <option value="">Bangladesh</option>
+            <option value="">Nepal</option>
+            <option value="">Dubai</option>
+            <option value="">Israel</option>
+            <option value="">Chine</option>
+            <option value="">Japan</option>
+            <option value="">France</option>
+            <option value="">Russia</option>
+            <option value="">Canada</option>
+            <option value="">Australia</option>
+        </select><br><br>
+            <label for="" class="r">Gander</label>
+            <input type="radio" name="Gander" id="" value="Male">Male
+            <input type="radio" name="Gander" id="" value="Female">Female <br><br>
+            <input type="submit" value="REGISTER" class="p1"><br><br>
+            <span class="p2">Already have an account?</span>
+            <span><a href="https://www.googlelogin.om" target="_blank">Login in</a></span>
+        
+        </form>
+    </div>
+</body>
+</html>

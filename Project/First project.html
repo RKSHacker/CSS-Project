@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <style>
+        form{
+            width: 400px;
+            height: 500px;
+            background-color: rgb(209, 244, 233);
+            margin: auto;
+            border-radius: 15px;
+            border: 2px solid brown;
+            box-sizing: border-box;
+        }
+        .s{
+            width: 30px;
+            border: 1px solid red;
+            background-color: white;
+            margin-left: 10px;
+            margin-top: 20px;
+            border-radius: 100%;
+        }
+        .s:hover{
+            background-color: rgb(235, 233, 233);
+            opacity: 0.4;
+        }
+        .c{
+            margin-left: 20px;
+            margin-top: 50px;
+            font-weight: bolder;
+        }
+        .rk{
+            width: 120px;
+            margin-top: 50px;
+        }
+        .k{
+            width: 120px;
+            margin-top: 50px;
+            margin-left: 30px;
+        }
+        .c{
+            margin-left: 20px;
+            margin-top: 50px;
+            font-weight: bolder;
+        }
+        .e{
+            width: 225px;
+        }
+        .n{
+            width: 270px;
+        }
+        .nu{
+            width: 215px;
+        }
+        .pas{
+            width: 255px;
+        }
+        .Sub{
+            padding: 5px 80px;
+            margin-left: 70px;
+            align-self: auto;
+            background-color: green;
+            color: white;
+            font-weight: bold;
+            border-radius: 3px;
+            border: none;
+        }
+        .Sub:hover{
+            background-color: lightgreen;
+            color: brown;
+            cursor: pointer;
+            border: 2px solid palevioletred;
+        }
+        p{
+            font-size: 14px;
+            text-align: center;
+            font-style: italic;
+            font-weight: bold;
+        }
+        .i{
+            width: 90%;
+            text-align: end;
+            padding-right: 10px;      
+         }
+    </style>
+</head>
+<body>
+    <form action="" method="post">
+        <div class="i">
+            <a href="https://www.google.com" target="_blank"><img src="../html/Media/Google logo.jpg" alt="Google" class="s"></a>
+        <a href="https://www.facebook.com" target="_blank"><img src="../html/Media/images copy.png" alt="Facebook" class="s"></a>
+        <a href="https://www.instagram.com" target="_blank"><img src="../html/Media/Insta.png" alt="Instagram" class="s"></a><br>
+        </div>
+        <label for="first" class="c">Name <sup style="color: red;">*</sup></label> &nbsp;
+        <input type="text" placeholder="first name" class="rk" required id="first" name="fname">
+        <input type="text" name="lname" id="" placeholder="last name" class="k" required><br><br> <br>
+        <label for="em" class="c">Email address <sup style="color: red;">*</sup></label> &nbsp;
+        <input class="e" type="Email" placeholder="ex. abc20@gmail.com" required id="em" name="email"><br><br><br>
+        <label for="country" class="c">Country <sup style="color: red;">*</sup></label> &nbsp;
+        <select name="Country" id="country" class="n">
+            <option value="">Select Country</option>
+            <option value="">India</option>
+            <option value="">United State</option>
+            <option value="">Asia</option>
+            <option value="">Pakistan</option>
+            <option value="">South Africa</option>
+            <option value="">Bangladesh</option>
+            <option value="">Nepal</option>
+            <option value="">Dubai</option>
+            <option value="">Israel</option>
+            <option value="">Chine</option>
+            <option value="">Japan</option>
+            <option value="">France</option>
+            <option value="">Russia</option>
+            <option value="">Canada</option>
+            <option value="">Australia</option>
+        </select><br><br><br>
+        <label for="number" class="c">Mobile Number <sup style="color: red;">*</sup></label> &nbsp;
+        <input type="number" name="No" id="number" placeholder="Mobile Number" required class="nu"><br><br><br>
+        <label for="pass" class="c">Password <sup style="color: red;">*</sup></label> &nbsp;
+        <input type="password" name="pass" id="pass" placeholder="password" class="pas"><br><br><br>
+        <input type="submit" value="Create Account" class="Sub"><br><br>
+        <p>Please fill in the information correctly to create an account.</p>
+    </form>
+</body>
+</html>

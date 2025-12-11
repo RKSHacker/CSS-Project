@@ -1,0 +1,34 @@
+ table, tr, th, td{
+            border-collapse: collapse;
+        }
+        table{
+            width: 100%;
+        }
+        table thead th{
+            background-color: black;
+            height: 30px;
+            color: white;
+            font-family: calibri;
+            text-align: center;
+            padding: 5px;
+        }
+        table tbody td{
+            text-align: center;
+            height: 30px;
+            font-family: calibri;
+            padding: 4px;
+        }
+       table tbody tr:nth-child(odd){
+            background-color: rgb(224, 221, 221);
+        }
+        table tbody tr:nth-child(even){
+            border-left: 1px solid rgb(211, 221, 221);
+            border-right: 1px solid rgb(211, 221, 221);
+        }
+        table tbody tr:hover:nth-child(even){
+            background-color: aqua;
+        }
+         table tbody tr:hover:nth-child(odd){
+            background-color:green;
+            color: white;
+        }
