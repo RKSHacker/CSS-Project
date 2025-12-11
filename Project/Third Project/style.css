@@ -42,6 +42,9 @@ h1{
     font-weight: bolder;
     border: none;
 }
+.S:hover{
+    background-color: green;
+}
 .box3{
     margin-top: 30px;
     text-align: center;
