@@ -1,0 +1,77 @@
+.box{
+    width: 310px;
+    height: 350px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    margin: auto;
+}
+h1{
+    width: 100%;
+    background: #1920d4;
+    background: linear-gradient(31deg, rgba(25, 32, 212, 1) 0%, rgba(132, 17, 240, 1) 50%, rgba(176, 15, 212, 1) 100%);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-family: Arial;
+    font-weight: bolder;
+    color: white;
+    font-size: 26px;
+}
+.fill{
+    margin-left: 21px; 
+    width: 250px;
+    height: 35px;
+    border-radius: 20px;
+    border: 1px solid lightgray;
+    padding-left: 15px;
+    display: inline-block;
+    font-family: calibri;  
+}
+.checked{
+    margin-left: 31px;
+}
+.pra{
+   display: inline-block;
+   font-family: calibri;
+}
+.ancher{
+    margin-left: 14px;
+    color: rgb(39, 39, 240);
+    font-family: calibri;
+    text-decoration: none;
+}
+.sub{
+    margin: auto;
+    display: block;
+    width: 80%;
+    height: 35px;
+    border-radius: 25px;
+    border: 1px solid lightgray;
+    background: #1920d4;
+    background-image:  linear-gradient(to right, rgba(25, 32, 212, 1) 0%, rgba(132, 17, 240, 1) 50%, rgba(176, 15, 212, 1) 100%);
+    font-family: Arial;
+    color: white;
+    font-weight: bold;
+    transition: all 2s ;
+    
+}
+.sub:hover{
+     /* background: #5c43e8; */
+     background-image:  linear-gradient(90deg, rgba(92, 67, 232, 1) 0%, rgb(189, 6, 189) 52%, rgb(240, 109, 196) 100%);
+     transform: scale(1.1);
+     cursor: pointer;
+}
+.nm{
+    display: inline-block;
+    margin-left: 62px;
+    margin-top: 30px;
+}
+.an{
+    margin-left: 6px;
+    text-decoration: none;
+    font-family: calibri;
+    margin-top: 30px;
+    color: rgb(39, 39, 240);
+}

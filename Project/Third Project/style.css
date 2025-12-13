@@ -44,6 +44,9 @@ h1{
     border: none;
     transition: all 1s;
 }
+.H:focus{
+    border: 1px solid greenyellow;
+}
 .S:hover{
     background-color: green;
     cursor: pointer;
