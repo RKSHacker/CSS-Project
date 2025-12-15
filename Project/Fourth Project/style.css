@@ -1,9 +1,9 @@
 .box{
     width: 310px;
-    height: 350px;
-    background-color: antiquewhite;
+    height: 340px;
     border-radius: 10px;
     margin: auto;
+    box-shadow: 0 0 15px gray;
 }
 h1{
     width: 100%;
@@ -35,6 +35,7 @@ h1{
 .pra{
    display: inline-block;
    font-family: calibri;
+    color: rgb(63, 61, 61);
 }
 .ancher{
     margin-left: 14px;
@@ -67,6 +68,9 @@ h1{
     display: inline-block;
     margin-left: 62px;
     margin-top: 30px;
+    font-family:calibri;
+    font-size: 15px;
+    color: rgb(63, 61, 61);
 }
 .an{
     margin-left: 6px;
