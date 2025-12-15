@@ -3,6 +3,7 @@
     height: 340px;
     border-radius: 10px;
     margin: auto;
+    text-align: center;
     box-shadow: 0 0 15px gray;
 }
 h1{
@@ -20,7 +21,7 @@ h1{
     font-size: 26px;
 }
 .fill{
-    margin-left: 16px; 
+    /* margin-left: 5px;  */
     width: 250px;
     height: 35px;
     border-radius: 20px;
@@ -29,8 +30,13 @@ h1{
     display: inline-block;
     font-family: calibri;  
 }
+.box2{
+    width: 100%;
+    margin-left: -3px;
+    text-align: center;
+}
 .checked{
-    margin-left: 31px;
+    /* margin-left: 12px; */
 }
 .pra{
    display: inline-block;
@@ -38,7 +44,7 @@ h1{
     color: rgb(63, 61, 61);
 }
 .ancher{
-    margin-left: 14px;
+    margin-left: 10px;
     color: rgb(39, 39, 240);
     font-family: calibri;
     text-decoration: none;
@@ -66,14 +72,14 @@ h1{
 }
 .nm{
     display: inline-block;
-    margin-left: 62px;
+    margin-left: 0px;
     margin-top: 30px;
     font-family:calibri;
     font-size: 15px;
     color: rgb(63, 61, 61);
 }
 .an{
-    margin-left: 6px;
+    margin-left: 2px;
     text-decoration: none;
     font-family: calibri;
     margin-top: 30px;
