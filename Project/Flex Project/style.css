@@ -11,7 +11,7 @@
     gap: 5px;
     flex-wrap: wrap;
     justify-content: center;
-    /* align-items: center; */
+    align-items: center;
     box-shadow: 0 0 10px rgb(86, 86, 86);
     background-color:rgb(244, 227, 227);
 
@@ -20,7 +20,7 @@
     height: 230px;
     width: 150px;
     /* border: 2px solid black; */
-    margin: auto;
+    /* margin: auto; */
     display: flex;
     flex-wrap: wrap;
     gap: 0px;
