@@ -13,6 +13,7 @@
     align-items: center;
     box-shadow: 0 0 10px rgb(86, 86, 86);
     background-color:rgb(244, 227, 227);
+    align-content: center;
 }
 .container{
     height: 420px;
