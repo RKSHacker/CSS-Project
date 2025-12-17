@@ -63,3 +63,6 @@ button{
     color: rgb(7, 73, 240);
     font-weight: bolder;
 }
+button:hover{
+    cursor: pointer;
+}
