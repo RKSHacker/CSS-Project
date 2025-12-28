@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#main{
+    min-height: 100vh;
+    padding: 20px 0;
+    display: flex;
+    gap: 7px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgb(86, 86, 86);
+    background-color:rgb(244, 227, 227);
+
+
+}
+.container{
+    height: 420px;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: flex-start;
+    align-content: baseline;
+    box-shadow: 0 0 10px black;
+    background-color: white;
+    
+}
+h2{
+    width: 100%;
+}
+.item{
+    height:125px;
+    width: 125px;
+    background-color: aqua;
+    flex-wrap: wrap;
+}

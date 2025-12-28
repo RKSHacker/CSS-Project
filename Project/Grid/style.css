@@ -1,0 +1,13 @@
+.container{
+    height: 90vh;
+    width: 100%;
+    border: 2px solid black;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 2fr 3fr;
+    grid-template-rows:1fr 2fr 3fr ;
+}
+.container > .item{
+    background-color: blue;
+    color: white;
+}

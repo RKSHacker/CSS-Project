@@ -20,15 +20,19 @@
         }
        table tbody tr:nth-child(odd){
             background-color: rgb(224, 221, 221);
+            transition: all 2s;
         }
         table tbody tr:nth-child(even){
             border-left: 1px solid rgb(211, 221, 221);
             border-right: 1px solid rgb(211, 221, 221);
+            transition: all 2s;
         }
         table tbody tr:hover:nth-child(even){
             background-color: aqua;
+            transform: scale(1.2);
         }
          table tbody tr:hover:nth-child(odd){
             background-color:green;
             color: white;
+            transform: scale(1.2);
         }
